@@ -1,15 +1,36 @@
-# Contribution [#]: [Issue Title]
+# Contribution [1]: Rule for first value of enum should have numeric value zero?
 
 **Contribution Number:** [1 / 2 / 3]  
-**Student:** [Your Name]  
-**Issue:** [GitHub issue link]  
-**Status:** [Phase I / Phase II / Phase III / Phase IV] [In Progress / Complete]
+**Student:** Canbo Li 
+**Issue:** https://github.com/yoheimuta/protolint/issues/423
+**Status:** Phase I Complete
 
 ---
 
 ## Why I Chose This Issue
 
-[1-2 paragraphs explaining why this issue interests you, how it matches your skills/learning goals, what you hope to learn]
+I chose issue #423 "Rule for first value of enum should have numeric value zero?" 
+because it's clear feature addition with a what it considers a definition of done. The 
+issue is labeled "good first issue" and the maintainer explicitly stated they're 
+willing to accept a contribution.
+
+I'm interested in this because:
+1. The scope is clear, adding one lint rule by following patterns already 
+   established in the codebase
+2. The maintainer provided a concrete example of the problem with actual 
+   output so I know  what "fixed" looks like
+3. I feel pretty confident in Python but a beginner in Go and this issue requires both so this feels like the right 
+   challenge to push my skills without overwhelming me.
+4. I want to learn how linters enforce rules which is transferable 
+   knowledge across languages and tools
+
+From reading the issue thread, I understand the problem is that protolint is missing a check that proto3 
+actually requires, the first value in any enum must be zero. Right now you 
+only find out when you try to compile, but protolint should catch it sooner.
+My contribution will add that missing check so developers get an early warning 
+before their code even reaches the compiler.
+
+Left a comment on the issue introducing myself and expressing intent to work on it.
 
 ---
 

@@ -1,6 +1,6 @@
 # Contribution [1]: Rule for first value of enum should have numeric value zero?
 
-**Contribution Number:** [1 / 2 / 3]  
+**Contribution Number:** 1  
 **Student:** Canbo Li 
 **Issue:** https://github.com/yoheimuta/protolint/issues/423
 **Status:** Phase I Complete
